@@ -11,6 +11,3 @@ find_package(GTest REQUIRED)
 
 add_subdirectory(simd)
 add_subdirectory(data-structures)
-
-include(GoogleTest)
-gtest_discover_tests(queue_tests)
